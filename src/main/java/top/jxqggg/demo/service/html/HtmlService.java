@@ -2,15 +2,14 @@ package top.jxqggg.demo.service.html;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import org.htmlunit.BrowserVersion;
+import org.htmlunit.NicelyResynchronizingAjaxController;
+import org.htmlunit.WebClient;
+import org.htmlunit.html.HtmlPage;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import top.jxqggg.demo.service.DownloadService;
 
 import java.io.IOException;
 import java.util.*;
