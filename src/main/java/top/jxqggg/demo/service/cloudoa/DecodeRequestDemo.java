@@ -1,8 +1,5 @@
 package top.jxqggg.demo.service.cloudoa;
 
-import cn.hutool.json.JSONUtil;
-import com.yunzhijia.cloudflow.AESEncryptor;
-
 /**
  * TODO
  *
@@ -14,9 +11,9 @@ public class DecodeRequestDemo {
 
     public static void main(String[] args) {
 
-        AESEncryptor encryptor = new AESEncryptor("mYOxAyHTFNCoFg3c");
-        String decrypt = encryptor.decrypt(param);
-        System.out.println(JSONUtil.formatJsonStr(decrypt));
+//        AESEncryptor encryptor = new AESEncryptor("mYOxAyHTFNCoFg3c");
+//        String decrypt = encryptor.decrypt(param);
+//        System.out.println(JSONUtil.formatJsonStr(decrypt));
 
     }
 
